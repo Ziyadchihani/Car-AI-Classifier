@@ -102,7 +102,7 @@ model.load_state_dict(state_dict)
 
 print("Brand model loaded successfully!")
 
-# استبدال الطبقة الأخيرة بـ 49 موديل
+# change last layer with 49 class
 
 num_classes = len(train_dataset.classes)
 
